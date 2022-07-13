@@ -1,27 +1,36 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from "react";
 
+import Header from "../components/Header";
+import { ThemeProvider } from "styled-components";
+import GlobalStyle from "../components/Style/Global";
+import { Container } from "../components/Style/Container.styled";
+import content from './content';
+import Card from "../components/Card";
+
+
+const theme = {
+  colors: {
+    header: "#ebfbff",
+    body: "#fff",
+    footer:"#003333",
+  },
+  mobile: "768px",
+};
 const about = () => {
-
-  const Title = styled.h2`
-  
-  font-size: 2.5em;
-  text-align: center;
-  color: blue ;
-
-  `;
-  const Grd = styled.h3`
-  fonr-size = 1.7rem;
-  text-align: center;
-  color: black;
-  
-  `;
   return (
-    <div>
-      <Title>Darshak Sondagar</Title>
-      <Grd>IT Engineer</Grd>
-    </div>
-  )
-}  
+    <ThemeProvider theme={theme}>
+      <>
+      <GlobalStyle/>
+        <Header />
+        <Container>
+        {content.map((item, index) => (
+            <Card key={index} item={item} />
+          ))}
+        
+        </Container>
+      </>
+    </ThemeProvider>
+  );
+};
 
-export default about
+export default about;
