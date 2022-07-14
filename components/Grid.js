@@ -63,6 +63,16 @@ export default function Grid() {
               <img src= './images/illustration-grow-together.svg' alt="" />
             </div>
           </Stylegrid>
+          <Stylegrid>
+            <div>
+              <h2>Flowing Conversations</h2>
+              <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow</p>
+            </div>
+            <div>
+              <img src= './images/illustration-flowing-conversation.svg' alt="" />
+            </div>
+          </Stylegrid>
+          
       </Div>
         
     </>
