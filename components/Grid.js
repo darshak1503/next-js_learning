@@ -15,7 +15,7 @@ import {
 export default function Grid() {
   return (
     <>
-      {/* <Stylemain>
+      <Stylemain>
         <Stylediv1>header</Stylediv1>
         <Stylediv2>box1</Stylediv2>
         <Stylediv3>box2</Stylediv3>
@@ -23,7 +23,7 @@ export default function Grid() {
         <Stylediv5>siderbar</Stylediv5>
         <Stylediv6>main content</Stylediv6>
         <Stylediv7>footer</Stylediv7>
-    </Stylemain> */}
+    </Stylemain>
 
        
       <Div>
