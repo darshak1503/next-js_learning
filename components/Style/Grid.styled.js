@@ -51,14 +51,15 @@ export const Stylegrid = styled.div`
   background-color: #badcf5;
   border-radius: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-  margin: 30px auto;
-  padding: 60px 40px 40px 60px;
-  width: 85%;
+ // margin: 0 30px;
+  padding: 60px;
+  
   height:100%;
   img {
+    display: inline-block;
+    margin: 0 100px;
     width: 80%;
   }
-  
 `;
 
 
@@ -68,4 +69,5 @@ export const Div = styled.div`
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 1.2rem;
   background-color:#fff;
+  margin: 0 auto;
 `;
