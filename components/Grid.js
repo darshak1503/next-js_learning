@@ -173,7 +173,7 @@ export default function Grid() {
         </Stylecard>
        
         </StyleSection>
-        <StyleBox>
+        <StyleBox >
                <a href="">LinkedIn</a>
                <a href="">Instagram</a>
                <a href="">Facebook</a>
