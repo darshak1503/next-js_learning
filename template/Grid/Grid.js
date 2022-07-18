@@ -14,7 +14,9 @@ import {
   StyleSection,
   Stylecard,
   StyleBox,
-} from "./Style/Grid.styled";
+} from "../../molecules/Grid/Grid";
+
+
 export default function Grid() {
   return (
     <>
@@ -123,7 +125,7 @@ export default function Grid() {
         </Stylecard>
         <Stylecard>
           <div>
-            <img src="./images/car-3.jpg" alt="" />
+            <img src="./images/car-3.jpg" alt=""/>
             <h2>Mustang</h2>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat

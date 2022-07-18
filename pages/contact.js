@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Image from "next/image";
+
 const Main = styled.div`
    background-color:#f6f7be;
 `;

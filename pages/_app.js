@@ -1,4 +1,4 @@
-import Navbar from "../components/Navbar";
+import Navbar from "../template/Navbar/Navbar";
 import "../styles/globals.css";
 import { ThemeProvider } from "styled-components";
 
@@ -10,7 +10,7 @@ const theme = {
   },
   mobile: "768px",
 };
-function MyApp({ Component, pageProps }) {
+  function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider theme={theme}>
       <>

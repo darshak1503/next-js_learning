@@ -1,9 +1,6 @@
-import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
-import Link from "next/link";
-import Grid from "../components/Grid";
-import content from './content';
+
+import Grid from "../template/Grid/Grid";
+
 export default function Home() {
   return (
     // <div className={styles.container}>

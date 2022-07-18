@@ -1,4 +1,4 @@
-import { StyledCard } from "./Style/Card.styled"
+import { StyledCard } from "../../molecules/Cards/Card"
 
 export default function Card({ item: { id, title, body, image } }) {
     return (

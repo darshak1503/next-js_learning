@@ -125,7 +125,7 @@ export const StyleBox = styled.div`
   flex-wrap: wrap;
   a {
     padding: 25px 40px;
-    background-color: #acf2fa;
+    background-color: ${({ theme }) => theme.colors.header};
     border-radius: 15px;
     margin: 10px 10px;
     width: 25%;
