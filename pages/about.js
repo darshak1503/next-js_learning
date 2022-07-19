@@ -4,7 +4,7 @@ import { Container } from "../atoms/Container/Container";
 import content from '../organisms/content'
 import GlobalStyle from "../styles/Global";
 import Card from "../template/Aboutpagecards/Card";
-import Header from "../template/Header/Header";
+import Header from "../template/AboutpageHeader/Header";
 
 const about = () => {
   return (
