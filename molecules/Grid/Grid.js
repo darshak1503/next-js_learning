@@ -7,14 +7,14 @@ export const Stylemain = styled.div`
   margin: 50px auto;
   border: 1px solid grey;
   display: grid;
-  grid-template-rows: 60px 100px 200px 60px;
-  grid-template-columns: repeat(3, 1fr) 150px;
+  /* grid-template-rows: 60px 100px 200px 60px; */
+  /* grid-template-columns: repeat(3, 1fr) 150px; */
   grid-gap: 20px;
 `;
 
 export const Stylediv1 = styled.div`
   background-color: #ff4757;
-  grid-column: 1/-1;
+  /* grid-column: 1/-1; */
 `;
 
 export const Stylediv2 = styled.div`
