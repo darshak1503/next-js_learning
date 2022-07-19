@@ -1,4 +1,4 @@
-export * from './Card'
-export * from './Grid'
-export * from './Header'
+export * from './AboutpageHeader'
+export * from './Aboutpagecards'
+export * from './Homepagecards'
 export * from './Navbar'
