@@ -1,12 +1,11 @@
 import React from "react";
 import {Stylemain,Stylediv1,Stylegrid,Div,StyleSection,Stylecard,StyleBox,} from "../../molecules/Grid/Grid";
 
-import content from "../../pages/content";
-import cardata from "../../pages/cardata";
+import content  from "../../organisms/content";
+ import cardata from "../../organisms/cardata";
 
 export default function Grid() {
   const data = [0, 1, 2, 3, 4, 5];
-
   return (
     <>
       <Stylemain>
@@ -45,7 +44,7 @@ export default function Grid() {
       </StyleSection>
 
      
-
+{/* --> Here 5 box component render */}
       <StyleBox>
         <a href="">LinkedIn</a>
         <a href="">Instagram</a>
