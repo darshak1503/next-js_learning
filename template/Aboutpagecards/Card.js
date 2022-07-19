@@ -1,3 +1,6 @@
+
+// This is 5-Cards design code which render in about page 
+
 import { StyledCard } from "../../molecules/Cards/Card"
 
 export default function Card({ item: { id, title, body, image } }) {

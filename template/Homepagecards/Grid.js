@@ -1,3 +1,9 @@
+// In this file  there are 4 component
+// 1) simple component
+// 2) 5-cards component
+// 3) 6-card component 
+// 4) 5 Socials Box
+
 import React from "react";
 import {Stylemain,Stylediv1,Stylegrid,Div,StyleSection,Stylecard,StyleBox,} from "../../molecules/Grid/Grid";
 
@@ -46,11 +52,11 @@ export default function Grid() {
      
 {/* --> Here 5 box component render */}
       <StyleBox>
-        <a href="">LinkedIn</a>
-        <a href="">Instagram</a>
-        <a href="">Facebook</a>
-        <a href="">Twitter</a>
-        <a href="">Github</a>
+        <a href="https://www.linkedin.com/in/darshak-sondagar-6a92711b5/" target="_blanck">LinkedIn</a>
+        <a href="https://www.instagram.com/_.iam_darshak/" target="_blanck" >Instagram</a>
+        <a href="https://www.facebook.com/profile.php?id=100008063298857" target="_blanck" >Facebook</a>
+        <a href="https://twitter.com/DarshakSondagar" target="_blanck" >Twitter</a>
+        <a href="https://github.com/darshak1503" target="_blanck">Github</a>
       </StyleBox>
     </>
   );

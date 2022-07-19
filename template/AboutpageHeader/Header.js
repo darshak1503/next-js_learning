@@ -1,3 +1,5 @@
+// This is Header of about page
+
 import {Container} from "../../atoms/Container/Container";
 import { StyledHeader, Nav, Logo, Image } from "../../molecules/Header/Header";
 import {Button} from "../../atoms/Button/Button";
