@@ -1,7 +1,7 @@
-import Container from "../../atoms/Container/Container";
+import {Container} from "../../atoms/Container/Container";
 import { StyledHeader, Nav, Logo, Image } from "../../molecules/Header/Header";
-import Button from "../../atoms/Button/Button";
-import Flex from "../../molecules/Flex/Flex";
+import {Button} from "../../atoms/Button/Button";
+import {Flex} from "../../molecules/Flex/Flex";
 
 export default function Header() {
   return (
