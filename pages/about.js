@@ -3,7 +3,7 @@ import { Container } from "../atoms/Container/Container";
 
 import content from '../pages/content'
 import GlobalStyle from "../styles/Global";
-import Card from "../template/Card/Card";
+import Card from "../template/Aboutpagecards/Card";
 import Header from "../template/Header/Header";
 
 const about = () => {

@@ -81,7 +81,7 @@ export const Stylecard = styled.div`
   background-color: #fcf5f5;
   width: 270px;
   height: 500px;
-  margin: 10px;
+  margin: 20px 57px;
   border-radius: 15px;
   &:hover {
     background-color: rgb(62, 62, 62);

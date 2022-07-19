@@ -1,5 +1,5 @@
 import React from "react";
-import Grid from "../template/Grid/Grid";
+import Grid from "../template/Homepagecards/Grid";
 
 const Home = () => {
   return (
