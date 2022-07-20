@@ -14,7 +14,7 @@ export const Stylemain = styled.div`
 
 export const Stylediv1 = styled.div`
   background-color: #ff4757;
-  /* grid-column: 1/-1; */
+  //  grid-column: 1/-1; 
 `;
 
 export const Stylediv2 = styled.div`
@@ -51,16 +51,11 @@ export const Stylegrid = styled.div`
   align-items: center;
   background-color: #badcf5;
   border-radius: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 12px 10px rgba(0, 0, 0, 0.15);
   // margin: 0 30px;
   padding: 60px;
-
   height: 100%;
-  img {
-    display: inline-block;
-    margin: 0 100px;
-    width: 80%;
-  }
+
 `;
 export const Div = styled.div`
   display: grid;
@@ -101,11 +96,7 @@ export const Stylecard = styled.div`
     padding: 10px;
     text-align: center;
   }
-  img {
-    border-radius: 15px 15px 0 0;
-    height: 180px;
-    width: 270px;
-  }
+  
   a {
     background-color: black;
     color: white;

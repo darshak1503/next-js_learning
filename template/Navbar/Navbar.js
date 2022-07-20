@@ -1,3 +1,5 @@
+// Rounting use in Navbar for switch in different pages.
+
 import React from "react";
 import styles from '../../styles/Home.module.css'
 import Link from "next/link";

@@ -1,23 +1,26 @@
 import React from "react";
 import { useRouter } from "next/router";
-import styles from '../../styles/BlogPost.module.css';
+import styles from "../../styles/BlogPost.module.css";
 
 const slug = () => {
   const router = useRouter();
   const { slug } = router.query;
 
   return (
-    <div className={styles.container}>
-      <main className={styles.main}>
-      <h1>Title of the page {slug}</h1>
-      <hr />
-      <div>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam nemo at
-        architecto quis labore fuga ea deleniti dolores, eaque voluptatibus
-        consequuntur neque.
+    <>
+      <div className={styles.container}>
+        <main className={styles.main}>
+          <h1>{slug}</h1>
+          <hr />
+          <p>
+            Next. js provides an easy way to create dynamic pages and handle
+            routing. It also includes some built-in features, such as support
+            for server-side rendering and pre-rendering. This can make your
+            application faster and more reliable.
+          </p>
+        </main>
       </div>
-      </main>
-    </div>
+    </>
   );
 };
 

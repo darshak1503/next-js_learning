@@ -5,10 +5,11 @@
 // 4) 5 Socials Box
 
 import React from "react";
-import {Stylemain,Stylediv1,Stylegrid,Div,StyleSection,Stylecard,StyleBox,} from "../../molecules/Grid/Grid";
+import {Stylemain, Stylediv1, Stylegrid, Div, StyleSection, Stylecard, StyleBox,} from "../../molecules/Grid/Grid";
 
 import content  from "../../organisms/content";
- import cardata from "../../organisms/cardata";
+import cardata from "../../organisms/cardata";
+import Image from "next/image"
 
 export default function Grid() {
   const data = [0, 1, 2, 3, 4, 5];
@@ -29,7 +30,12 @@ export default function Grid() {
               <p>{item.body}</p>
             </div>
             <div>
-              <img src= {`./images/${item.image}`} alt={item.alt} />
+              <Image 
+              src= {`/./images/${item.image}`}
+              alt={item.alt}
+             width={500}
+            height={460}
+               />
             </div>
           </Stylegrid>
         ))}
@@ -40,7 +46,12 @@ export default function Grid() {
         {cardata.map((data) => (
           <Stylecard key={data}>
             <div>
-              <img src= {`./images/${data.image}`} alt={data.alt} />
+              <Image 
+              src= {`/./images/${data.image}`} 
+              alt={data.alt}
+              height= {180}
+              width= {270} 
+              />
               <h2>{data.title}</h2>
               <p>{data.body}</p>
               <a href="">{data.buttom}</a>
