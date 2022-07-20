@@ -20,6 +20,7 @@ const slug = () => {
           </p>
         </main>
       </div>
+      
     </>
   );
 };
